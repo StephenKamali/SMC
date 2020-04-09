@@ -191,8 +191,9 @@ public class Enemy : MonoBehaviour
             bodyMesh.material.color = Color.red;
             losIndicator.SetActive(false);
             hearIndicator.SetActive(false);
-            this.enabled = false;
             isDead = true;
+            GetComponent<PandaBehaviour>().enabled = false;
+            Destroy(gameObject);
         }
     }
 

@@ -862,11 +862,6 @@ PrefabInstance:
       propertyPath: waypointPath
       value: 
       objectReference: {fileID: 935943661}
-    - target: {fileID: 4331616448495717824, guid: 026ea7937d29b524f9adbd23be85bef4,
-        type: 3}
-      propertyPath: m_LinearDrag
-      value: 100
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 026ea7937d29b524f9adbd23be85bef4, type: 3}
 --- !u!1001 &1271526550
